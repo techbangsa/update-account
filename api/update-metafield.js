@@ -36,7 +36,7 @@ async function updateCustomerMetafields(shop, accessToken, customerId, phone, bi
       ownerId: `gid://shopify/Customer/${customerId}`,
       namespace: 'custom',
       key: 'birthday',
-      type: 'date',
+      type: 'single_line_text_field',
       value: birthday,
     });
   }
