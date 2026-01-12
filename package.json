@@ -1,0 +1,17 @@
+{
+  "name": "kapitall-api",
+  "version": "1.0.0",
+  "description": "Shopify Customer Metafield API for Kapitall",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test-server.js",
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
